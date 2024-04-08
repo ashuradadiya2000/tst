@@ -1,0 +1,60 @@
+.contact-link:hover {
+    cursor: pointer;
+}
+
+.custom-next-arrow {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+    /* Add any other styling you want for the arrow */
+}
+
+.custom-prev-arrow {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    cursor: pointer;
+    /* Add any other styling you want for the arrow */
+}
+
+.slider-image {
+    position: relative;
+    /* Add any styling for the slider image container */
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+}
+
+.select-qty{
+    width: 80px;
+    height: 30px;
+}
+
+.contact_col.password{
+    position: relative;
+}
+
+.contact_col.password .icons {
+    position: absolute;
+    right: 0px;
+    top: 8px;
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.w-full{
+    width: 100%;
+}
+
+select option{
+    background-color: white;
+}

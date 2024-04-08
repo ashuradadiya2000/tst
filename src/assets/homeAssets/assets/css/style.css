@@ -1,0 +1,1828 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    margin: 0 !important;
+    line-height: 1.5;
+    font-family: "Rubik", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+p {
+    margin: 0 !important;
+    padding-bottom: 10px !important;
+}
+
+/*---------------scroll bar-----------------------*/
+/* ::-webkit-scrollbar {
+    width: 2px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #f22727;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #f22727;
+} */
+
+/* ::-webkit-scrollbar:horizontal {
+    height: 2px;
+    background-color: grey;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background: #f22727;
+} */
+
+/*---------------end scroll bar-----------------------*/
+/*---------------container------------------*/
+.c_wt {
+    width: 1520px;
+    margin: auto;
+}
+
+.pd_tb {
+    padding: 90px 0;
+}
+
+.pd_t {
+    padding-top: 100px;
+}
+
+.pd_b {
+    padding-bottom: 100px;
+}
+
+.pd_l {
+    padding-left: 200px;
+}
+
+.pd_r {
+    padding-right: 200px;
+}
+
+section {
+    position: relative;
+}
+
+/*---------------end container------------------*/
+/*---------------class------------------*/
+.df {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.wt {
+    color: #fff;
+}
+
+.tc {
+    text-align: center;
+}
+
+.rd {
+    color: #f22727;
+}
+
+.site_title {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.font_24 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.font_34 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.gc {
+    color: #505050;
+}
+.fw4 {
+    font-weight: 400;
+}
+.red {
+    color: #f22727;
+}
+/*---------------end class------------------*/
+/*---------------slick arrow-----------------------*/
+.slick-arrow {
+    width: 40px !important;
+    height: 40px !important;
+    font-size: 30px !important;
+    position: absolute !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    margin: auto !important;
+    display: flex !important;
+    align-items: center !important;
+    background: #fff0 !important;
+    border-radius: 50% !important;
+    filter: drop-shadow(0px 0px 14px rgba(0, 0, 0, 0.12)) !important;
+    border: 1px solid #fff !important;
+    justify-content: center !important;
+    color: #fff !important;
+    transition: 1s !important;
+    z-index: 2 !important;
+}
+
+.arrow-prev {
+    left: 0;
+}
+
+.arrow-next {
+    right: 0;
+}
+
+.slick-arrow:hover {
+    background: #fff;
+    color: #000;
+}
+
+.slick-arrow:before {
+    display: none;
+}
+
+.slick-arrow:after {
+    display: none;
+}
+
+/* dots */
+.banner_slider .slick-dots li button:before {
+    font-size: 10px !important;
+}
+.banner_slider .slick-dots li.slick-active button:before {
+    opacity: 1 !important;
+    color: #f22727 !important;
+}
+.banner_slider .slick-dots {
+    bottom: 10px !important;
+}
+.banner_slider .slick-dots li button:before {
+    opacity: 1 !important;
+    color: white !important;
+}
+/*---------------end slick arrow-----------------------*/
+/*---------------banner------------------*/
+.banner_img img {
+    height: 940px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bt_banner_section {
+    height: 1000px;
+    background: url(../images/banner-bg.jpg) no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.bt_banner_row {
+    margin: auto;
+}
+
+.bnr_line_1 {
+    font-size: 26px;
+    font-weight: 500;
+    padding-bottom: 2px;
+}
+
+.bnr_line_2 {
+    font-size: 21px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.bnr_line_3 {
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 15px;
+}
+
+.bnr_line_4 {
+    font-size: 34px;
+    font-weight: 600;
+    padding-bottom: 25px;
+    display: flex;
+}
+
+.sprator {
+    width: 2px;
+    height: 30px;
+    margin: 0 20px;
+    background: #fff;
+    display: inline-block;
+}
+
+.bnr_line_5 {
+    font-size: 51px;
+    padding-bottom: 20px;
+    font-weight: 500;
+    background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.13) 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    width: fit-content;
+    margin: auto;
+}
+
+.bnr_line_6 {
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bnr_line_6 svg {
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+}
+
+.bnr_logo img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+
+.bnr_line_6 span {
+    text-align: left;
+}
+
+.bt_banner_box {
+    padding: 0 10px;
+}
+
+.banner_slider .slick-arrow {
+    color: #fff;
+    z-index: 2;
+}
+
+.banner_slider .slick-prev {
+    left: 0 !important;
+}
+
+.banner_slider .slick-arrow::before {
+    font-size: 30px;
+    opacity: 1;
+    transition: 1s;
+}
+
+.banner_slider .slick-arrow:hover::before {
+    color: #f22727;
+}
+
+.banner_slider .slick-next {
+    right: 10px !important;
+}
+
+/*---------------end banner------------------*/
+/*---------------list of all event------------------*/
+.le_title {
+    background: url(../images/title-line.png) no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.le_title span {
+    background: #fff;
+    padding: 0 30px;
+}
+
+.le_desc_ul {
+    padding: 0 !important;
+    list-style: none !important;
+}
+
+.le_desc_block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.le_desc_box {
+    width: 25%;
+    display: flex;
+    padding: 10px;
+}
+
+.le_desc_inr {
+}
+
+.le_tab_ul {
+    padding: 0 !important;
+    list-style: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.le_tab_li {
+    padding: 10px;
+}
+
+.le_tab_title {
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid #1f1146;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+    background: #fff;
+}
+
+.le_desc_inr {
+    background: #1f1146;
+    padding: 15px;
+    background: #fff;
+    filter: drop-shadow(0px 0px 6px rgba(0, 0, 0, 0.12));
+    border-radius: 8px;
+    width: 100%;
+}
+
+.le_desc_inr:hover {
+    cursor: pointer;
+}
+
+.le_desc_img img {
+    height: 370px;
+    width: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+
+.le_desc_img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    display: flex;
+}
+
+.le_hover_btn {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(0px, 30px);
+    transition: 1s;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.le_desc_inr:hover .le_hover_btn {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0px, 0px);
+}
+
+.le_desc_inr {
+    transition: 1s;
+}
+.le_desc_inr:hover {
+    background: #ff000012;
+    transform: scale(0.98);
+}
+.le_info {
+    padding: 10px 0;
+    text-align: center;
+}
+
+.le_info_title {
+    font-size: 18px;
+    padding: 0 0 10px 0px;
+    font-weight: 600;
+    color: #1f1146;
+    text-transform: capitalize;
+}
+
+.le_dt_info {
+    padding: 0 0 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.le_dt {
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4px;
+    text-align: left;
+}
+
+.le_dt img {
+    width: 15px;
+    height: 15px;
+    object-fit: contain;
+}
+
+.le_dt span {
+    padding: 0 0 0 5px;
+}
+
+.le_img {
+    width: 100%;
+    display: flex;
+}
+
+.le_img img {
+    width: 100%;
+    height: 30px;
+    object-fit: contain;
+}
+
+.le_loc {
+    padding: 0 0 10px 0;
+}
+
+.le_btn {
+    display: flex;
+    justify-content: center;
+}
+
+.le_desc_li {
+    display: none;
+}
+
+/*.le_desc_li:first-child {
+    display: block;
+}*/
+.le_tab_li.current .le_tab_title,
+.le_tab_title:hover {
+    background: #1f1146;
+    color: #fff;
+}
+
+div#pagination-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 10px;
+}
+
+.light-theme .current {
+    background: #f22727 !important;
+    border-color: #f22727 !important;
+}
+
+/*---------------end list of all event------------------*/
+/*---------------filler------------------*/
+.filler_section {
+    background: url(../images/filler-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+
+.filler_title {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.filler_title i {
+    font-style: normal;
+}
+
+.filler_title p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.filer_images {
+    display: flex;
+    align-items: center;
+}
+
+.filer_img {
+    display: flex;
+    padding: 0 11px 0 0;
+}
+
+.filer_img img {
+    height: 40px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.filler_text {
+    font-size: 16px;
+    padding: 30px 0;
+    font-weight: 400;
+    color: #fff;
+    width: 66%;
+}
+
+.filler_col {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.filler_img {
+    display: flex;
+}
+
+.filler_img img {
+    height: 550px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.filler_rt {
+    width: 40%;
+}
+
+.filler_lt {
+    width: 60%;
+}
+
+/*---------------end filler------------------*/
+/*---------------about us------------------*/
+.aus_section {
+    background: #fee5e5;
+    margin: 100px 0 0 0;
+}
+
+.aus_col {
+    align-items: inherit !important;
+}
+
+.aus_lt {
+    width: 40%;
+    padding: 0 40px 0 0;
+    position: relative;
+}
+
+.aus_lt::before {
+    content: "";
+    position: absolute;
+    background: #f22727;
+    width: 4px;
+    height: 120px;
+    top: -150px;
+    right: 10px;
+}
+
+.aus_rt {
+    width: 60%;
+}
+
+.aus_img {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    transition: 1s;
+}
+
+.aus_img img {
+    height: 650px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.aus_inr_title {
+    font-size: 28px;
+    font-weight: 700;
+    padding: 0 0 10px 0;
+}
+
+.aus_image_col {
+    position: relative;
+}
+
+.aus_col .aus_rt .aus_btn .site_button{
+    text-align: left;
+    margin: 0;
+}
+.aus_img_1 {
+    position: absolute;
+    right: 0;
+    bottom: 0px;
+    top: -120px;
+    margin: auto !important;
+}
+
+.aus_img_1 img {
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+    border: 4px solid #fee5e5;
+    transition: 1s;
+}
+
+.aus_img_1 img:hover,
+.aus_img_2:hover {
+    border: 4px solid #f22727;
+}
+
+.aus_img_2 {
+    display: flex;
+    width: 80%;
+    margin: -250px auto 0;
+    border: 4px solid #fee5e5;
+    transition: 1s;
+}
+
+.aus_img_2 img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.aus_img:hover {
+    box-shadow: rgb(10 35 99) 0px 19px 38px, rgb(119 153 193) 0px 6px 12px;
+}
+
+/*---------------end about us------------------*/
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+    /*---------------container------------------*/
+    .font_24 {
+        text-align: center;
+    }
+
+    .text {
+        text-align: center;
+    }
+
+    .c_wt {
+        width: 100%;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .pd_tb {
+        padding: 30px 0;
+    }
+
+    .pd_t {
+        padding-top: 30px;
+    }
+
+    .pd_b {
+        padding-bottom: 30px;
+    }
+
+    .text {
+        font-size: 15px;
+    }
+
+    .site_title {
+        font-size: 25px;
+    }
+
+    /*---------------end container------------------*/
+    /*-----------------banner---------*/
+    .banner_img img {
+        height: 300px;
+    }
+
+    .bt_banner_section {
+        height: 470px;
+    }
+
+    .bnr_line_1 {
+        font-size: 15px;
+    }
+
+    .bnr_line_2 {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+    .bnr_line_3 {
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+    .bnr_line_4 {
+        font-size: 16px;
+        padding-bottom: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .bnr_line_5 {
+        font-size: 22px;
+        padding-bottom: 2px;
+    }
+
+    .bnr_logo img {
+        height: 60px;
+    }
+
+    .bnr_line_6 svg {
+        width: 35px;
+        height: 35px;
+    }
+
+    .sprator {
+        height: 20px;
+        margin: 0 10px;
+    }
+
+    .banner_slider .slick-arrow::before {
+        font-size: 24px;
+    }
+
+    .banner_slider .slick-next {
+        right: 8px !important;
+    }
+
+    /*-----------------end banner---------*/
+    /*---------------list of all event------------------*/
+    .le_desc_img img {
+        height: 410px;
+    }
+
+    .le_tab_title {
+        width: 115px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+    .le_desc_box {
+        width: 100%;
+        padding: 10px 5px;
+    }
+
+    .le_desc_inr {
+        padding: 10px 7px;
+    }
+
+    .le_dt {
+        padding: 3px 4px;
+    }
+
+    .le_tab_li {
+        padding: 3px 3px;
+    }
+
+    .le_dt_info {
+        display: block;
+    }
+
+    .le_info_title {
+        font-size: 16px;
+    }
+
+    /*---------------end list of all event------------------*/
+    /*---------------filler------------------*/
+    .filler_img img {
+        height: 220px;
+    }
+
+    .filler_title {
+        font-size: 27px;
+    }
+
+    .filler_text {
+        font-size: 15px;
+        padding: 20px 0;
+        width: 100%;
+    }
+
+    .filer_img img {
+        height: 35px;
+    }
+
+    .filler_lt,
+    .filler_rt {
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .filer_images {
+        justify-content: center;
+    }
+
+    /*---------------end filler------------------*/
+    /*---------------about us------------------*/
+    .aus_img img {
+        height: 250px;
+    }
+
+    .aus_text.text {
+        height: 211px;
+        overflow: auto;
+    }
+
+    .aus_img_1 {
+        position: relative !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        margin: auto !important;
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .aus_img_1 img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .aus_img_2 {
+        width: 100%;
+        margin: 0px auto 0;
+    }
+
+    .aus_img_2 img {
+        height: 200px;
+    }
+
+    .aus_inr_title {
+        font-size: 20px;
+    }
+
+    .aus_lt {
+        width: 100%;
+        padding: 0 0px 20px 0;
+    }
+
+    .aus_rt {
+        width: 100%;
+        text-align: center;
+    }
+
+    .aus_btn {
+        display: flex;
+        justify-content: center;
+        padding: 0 0 10px 0;
+    }
+
+    .aus_lt::before {
+        display: none;
+    }
+
+    .aus_section {
+        margin: 40px 0 0 0;
+    }
+
+    /*---------------end about us------------------*/
+}
+
+/* @media all and (min-width: 650px) and (max-width: 767px) {
+
+	.le_desc_box {
+		width: 50% !important;
+	}
+
+
+} */
+@media all and (min-width: 481px) and (max-width: 767px) {
+    .le_desc_box {
+        width: 50% !important;
+    }
+
+    .le_desc_img img {
+        height: 330px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 980px) {
+    /*---------------container------------------*/
+    .c_wt {
+        width: 100%;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .pd_tb {
+        padding: 30px 0;
+    }
+
+    .pd_t {
+        padding-top: 30px;
+    }
+
+    .pd_b {
+        padding-bottom: 30px;
+    }
+
+    .text {
+        font-size: 15px;
+    }
+
+    .site_title {
+        font-size: 29px;
+    }
+
+    /*---------------end container------------------*/
+    /*-----------------banner---------*/
+    .banner_img img {
+        height: 470px;
+    }
+
+    .bt_banner_section {
+        height: 470px;
+    }
+
+    .bnr_line_1 {
+        font-size: 20px;
+    }
+
+    .bnr_line_2 {
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+
+    .bnr_line_3 {
+        font-size: 20px;
+    }
+
+    .bnr_line_4 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .bnr_line_5 {
+        font-size: 30px;
+        padding-bottom: 2px;
+    }
+
+    .bnr_logo img {
+        height: 70px;
+    }
+
+    .bnr_line_6 svg {
+        width: 35px;
+        height: 35px;
+    }
+
+    .sprator {
+        height: 26px;
+        margin: 0 15px;
+    }
+
+    /*-----------------end banner---------*/
+    /*---------------list of all event------------------*/
+    .le_desc_img img {
+        height: 290px;
+    }
+
+    .le_tab_title {
+        width: 115px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+    .le_desc_box {
+        width: 33.33%;
+        padding: 10px 5px;
+    }
+
+    .le_desc_inr {
+        padding: 10px 7px;
+    }
+
+    .le_dt {
+        padding: 3px 4px;
+    }
+
+    .le_tab_li {
+        padding: 7px 3px;
+    }
+
+    .le_dt_info {
+        display: block;
+    }
+
+    .le_info_title {
+        font-size: 16px;
+    }
+
+    /*---------------end list of all event------------------*/
+    /*---------------filler------------------*/
+    .filler_img img {
+        height: 280px;
+    }
+
+    .filler_title {
+        font-size: 27px;
+    }
+
+    .filler_text {
+        font-size: 15px;
+        padding: 20px 0;
+        width: 80%;
+    }
+
+    .filer_img img {
+        height: 35px;
+    }
+
+    /*---------------end filler------------------*/
+    /*---------------about us------------------*/
+    .aus_img img {
+        height: 370px;
+    }
+
+    .aus_text.text {
+        height: 127px;
+        overflow: auto;
+    }
+
+    .aus_img_1 {
+        top: -40px;
+    }
+
+    .aus_img_2 {
+        margin: -100px auto 0;
+    }
+
+    .aus_img_1 img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .aus_img_2 img {
+        height: 270px;
+    }
+
+    .aus_inr_title {
+        font-size: 20px;
+    }
+
+    .aus_lt {
+        padding: 0 10px 0 0;
+    }
+
+    .aus_lt::before {
+        height: 40px;
+        top: -50px;
+    }
+
+    .aus_section {
+        margin: 40px 0 0 0;
+    }
+
+    /*---------------end about us------------------*/
+}
+
+@media all and (min-width: 981px) and (max-width: 1024px) {
+    /*---------------container------------------*/
+    .c_wt {
+        width: 960px;
+    }
+
+    .pd_tb {
+        padding: 40px 0;
+    }
+
+    .pd_t {
+        padding-top: 40px;
+    }
+
+    .pd_b {
+        padding-bottom: 40px;
+    }
+
+    .text {
+        font-size: 15px;
+    }
+
+    .site_title {
+        font-size: 29px;
+    }
+
+    /*---------------end container------------------*/
+    /*-----------------banner---------*/
+    .banner_img img {
+        height: 550px;
+    }
+
+    .bt_banner_section {
+        height: 550px;
+    }
+
+    .bnr_line_1 {
+        font-size: 20px;
+    }
+
+    .bnr_line_2 {
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+
+    .bnr_line_3 {
+        font-size: 20px;
+    }
+
+    .bnr_line_4 {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .bnr_line_5 {
+        font-size: 30px;
+        padding-bottom: 2px;
+    }
+
+    .bnr_logo img {
+        height: 70px;
+    }
+
+    .bnr_line_6 svg {
+        width: 35px;
+        height: 35px;
+    }
+
+    .sprator {
+        height: 26px;
+        margin: 0 15px;
+    }
+
+    /*-----------------end banner---------*/
+    /*---------------list of all event------------------*/
+    .le_desc_img img {
+        height: 330px;
+    }
+
+    .le_tab_title {
+        width: 140px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+    .le_desc_box {
+        width: 33.33%;
+        padding: 10px 5px;
+    }
+
+    .le_desc_inr {
+        padding: 10px 7px;
+    }
+
+    .le_dt {
+        padding: 3px 4px;
+    }
+
+    .le_tab_li {
+        padding: 10px 3px;
+    }
+
+    /*---------------end list of all event------------------*/
+    /*---------------filler------------------*/
+    .filler_img img {
+        height: 330px;
+    }
+
+    .filler_title {
+        font-size: 30px;
+    }
+
+    .filler_text {
+        font-size: 15px;
+        padding: 20px 0;
+        width: 70%;
+    }
+
+    /*---------------end filler------------------*/
+    /*---------------about us------------------*/
+    .aus_img img {
+        height: 420px;
+    }
+
+    .aus_text.text {
+        height: 127px;
+        overflow: auto;
+    }
+
+    .aus_img_1 {
+        top: -40px;
+    }
+
+    .aus_img_2 {
+        margin: -150px auto 0;
+    }
+
+    .aus_img_1 img {
+        width: 300px;
+        height: 260px;
+    }
+
+    .aus_img_2 img {
+        height: 270px;
+    }
+
+    .aus_inr_title {
+        font-size: 20px;
+    }
+
+    .aus_lt::before {
+        height: 70px;
+        top: -80px;
+    }
+
+    .aus_section {
+        margin: 50px 0 0 0;
+    }
+
+    /*---------------end about us------------------*/
+}
+
+@media all and (min-width: 1025px) and (max-width: 1140px) {
+    /*---------------container------------------*/
+    .c_wt {
+        width: 1000px;
+    }
+
+    .pd_tb {
+        padding: 50px 0;
+    }
+
+    .pd_t {
+        padding-top: 50px;
+    }
+
+    .pd_b {
+        padding-bottom: 50px;
+    }
+
+    .text {
+        font-size: 15px;
+    }
+
+    .site_title {
+        font-size: 32px;
+    }
+
+    /*---------------end container------------------*/
+    /*-----------------banner---------*/
+    .banner_img img {
+        height: 600px;
+    }
+
+    .bt_banner_section {
+        height: 600px;
+    }
+
+    .bnr_line_1 {
+        font-size: 20px;
+    }
+
+    .bnr_line_2 {
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+
+    .bnr_line_3 {
+        font-size: 20px;
+    }
+
+    .bnr_line_4 {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    .bnr_line_5 {
+        font-size: 35px;
+        padding-bottom: 8px;
+    }
+
+    .bnr_logo img {
+        height: 80px;
+    }
+
+    .bnr_line_6 svg {
+        width: 35px;
+        height: 35px;
+    }
+
+    /*-----------------end banner---------*/
+    /*---------------list of all event------------------*/
+    .le_desc_img img {
+        height: 350px;
+    }
+
+    .le_tab_title {
+        width: 140px;
+        height: 45px;
+        font-size: 15px;
+    }
+
+    .le_desc_box {
+        width: 33.33%;
+        padding: 10px 5px;
+    }
+
+    .le_desc_inr {
+        padding: 10px 10px;
+    }
+
+    .le_dt {
+        padding: 3px 4px;
+    }
+
+    .le_tab_li {
+        padding: 10px 3px;
+    }
+
+    /*---------------end list of all event------------------*/
+    /*---------------filler------------------*/
+    .filler_img img {
+        height: 360px;
+    }
+
+    .filler_title {
+        font-size: 33px;
+    }
+
+    .filler_text {
+        font-size: 15px;
+        width: 70%;
+    }
+
+    /*---------------end filler------------------*/
+    /*---------------about us------------------*/
+    .aus_img img {
+        height: 420px;
+    }
+
+    .aus_text.text {
+        height: 127px;
+        overflow: auto;
+    }
+
+    .aus_img_1 {
+        top: -40px;
+    }
+
+    .aus_img_2 {
+        margin: -110px auto 0;
+    }
+
+    .aus_img_1 img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .aus_img_2 img {
+        height: 330px;
+    }
+
+    .aus_inr_title {
+        font-size: 20px;
+    }
+
+    .aus_lt::before {
+        height: 70px;
+        top: -90px;
+    }
+
+    .aus_section {
+        margin: 70px 0 0 0;
+    }
+
+    /*---------------end about us------------------*/
+}
+
+@media all and (min-width: 1141px) and (max-width: 1280px) {
+    /*---------------container------------------*/
+    .c_wt {
+        width: 1100px;
+    }
+
+    .pd_tb {
+        padding: 60px 0;
+    }
+
+    .pd_t {
+        padding-top: 60px;
+    }
+
+    .pd_b {
+        padding-bottom: 60px;
+    }
+
+    .site_title {
+        font-size: 36px;
+    }
+
+    /*---------------end container------------------*/
+    /*-----------------banner---------*/
+    .banner_img img {
+        height: 650px;
+    }
+
+    .bt_banner_section {
+        height: 650px;
+    }
+
+    .bnr_line_1 {
+        font-size: 20px;
+    }
+
+    .bnr_line_2 {
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+
+    .bnr_line_3 {
+        font-size: 20px;
+    }
+
+    .bnr_line_4 {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    .bnr_line_5 {
+        font-size: 35px;
+        padding-bottom: 8px;
+    }
+
+    .bnr_logo img {
+        height: 90px;
+    }
+
+    .bnr_line_6 svg {
+        width: 35px;
+        height: 35px;
+    }
+
+    /*-----------------end banner---------*/
+    /*---------------list of all event------------------*/
+    .le_desc_img img {
+        height: 270px;
+    }
+
+    .le_tab_title {
+        width: 160px;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .le_desc_box {
+        padding: 10px 5px;
+    }
+
+    .le_desc_inr {
+        padding: 10px 10px;
+    }
+
+    .le_dt_info {
+        display: block;
+    }
+
+    .le_dt {
+        padding: 3px 4px;
+    }
+
+    /*---------------end list of all event------------------*/
+    /*---------------filler------------------*/
+    .filler_img img {
+        height: 390px;
+    }
+
+    .filler_title {
+        font-size: 33px;
+    }
+
+    .filler_text {
+        font-size: 15px;
+        width: 70%;
+    }
+
+    /*---------------end filler------------------*/
+    /*---------------about us------------------*/
+    .aus_img img {
+        height: 470px;
+    }
+
+    .aus_img_1 {
+        top: -40px;
+    }
+
+    .aus_img_1 img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .aus_img_2 {
+        margin: -110px auto 0;
+    }
+
+    .aus_img_2 img {
+        height: 330px;
+    }
+
+    .aus_inr_title {
+        font-size: 20px;
+    }
+
+    .aus_lt::before {
+        height: 80px;
+        top: -110px;
+    }
+
+    .aus_section {
+        margin: 70px 0 0 0;
+    }
+
+    /*---------------end about us------------------*/
+}
+
+@media all and (min-width: 1281px) and (max-width: 1440px) {
+    /*---------------container------------------*/
+    .c_wt {
+        width: 1240px;
+    }
+
+    .pd_tb {
+        padding: 70px 0;
+    }
+
+    .pd_t {
+        padding-top: 70px;
+    }
+
+    .pd_b {
+        padding-bottom: 70px;
+    }
+
+    .site_title {
+        font-size: 38px;
+    }
+
+    /*---------------end container------------------*/
+    /*-----------------banner---------*/
+    .banner_img img {
+        height: 700px;
+    }
+
+    .bt_banner_section {
+        height: 700px;
+    }
+
+    .bnr_line_1 {
+        font-size: 22px;
+    }
+
+    .bnr_line_2 {
+        font-size: 19px;
+    }
+
+    .bnr_line_3 {
+        font-size: 20px;
+    }
+
+    .bnr_line_4 {
+        font-size: 26px;
+        padding-bottom: 20px;
+    }
+
+    .bnr_line_5 {
+        font-size: 40px;
+    }
+
+    .bnr_logo img {
+        height: 100px;
+    }
+
+    .bnr_line_6 svg {
+        width: 35px;
+        height: 35px;
+    }
+
+    /*-----------------end banner---------*/
+    /*---------------list of all event------------------*/
+    .le_desc_img img {
+        height: 290px;
+    }
+
+    .le_tab_title {
+        width: 160px;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    .le_desc_box {
+        padding: 10px 5px;
+    }
+
+    .le_desc_inr {
+        padding: 10px 10px;
+    }
+
+    .le_dt_info {
+        display: block;
+    }
+
+    .le_dt {
+        padding: 3px 4px;
+    }
+
+    /*---------------end list of all event------------------*/
+    /*---------------filler------------------*/
+    .filler_img img {
+        height: 420px;
+    }
+
+    .filler_title {
+        font-size: 36px;
+    }
+
+    .filler_text {
+        font-size: 15px;
+        width: 70%;
+    }
+
+    /*---------------end filler------------------*/
+    /*---------------about us------------------*/
+    .aus_img img {
+        height: 520px;
+    }
+
+    .aus_img_1 {
+        top: -40px;
+    }
+
+    .aus_img_1 img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .aus_img_2 {
+        margin: -160px auto 0;
+    }
+
+    .aus_img_2 img {
+        height: 330px;
+    }
+
+    .aus_inr_title {
+        font-size: 25px;
+    }
+
+    .aus_lt::before {
+        height: 100px;
+        top: -130px;
+    }
+
+    /*---------------end about us------------------*/
+}
+
+@media all and (min-width: 1441px) and (max-width: 1680px) {
+    /*---------------container------------------*/
+    .c_wt {
+        width: 1400px;
+    }
+
+    .pd_tb {
+        padding: 80px 0;
+    }
+
+    .pd_t {
+        padding-top: 80px;
+    }
+
+    .pd_b {
+        padding-bottom: 80px;
+    }
+
+    .site_title {
+        font-size: 40px;
+    }
+
+    /*---------------end container------------------*/
+    /*-----------------banner---------*/
+    .banner_img img {
+        height: 725px;
+    }
+
+    .bt_banner_section {
+        height: 800px;
+    }
+
+    .bnr_line_1 {
+        font-size: 24px;
+    }
+
+    .bnr_line_2 {
+        font-size: 19px;
+    }
+
+    .bnr_line_3 {
+        font-size: 22px;
+    }
+
+    .bnr_line_4 {
+        font-size: 30px;
+    }
+
+    .bnr_line_5 {
+        font-size: 47px;
+    }
+
+    .bnr_logo img {
+        height: 130px;
+    }
+
+    /*-----------------end banner---------*/
+    /*---------------list of all event------------------*/
+    .le_desc_img img {
+        height: 340px;
+    }
+
+    .le_tab_title {
+        width: 160px;
+        height: 45px;
+        font-size: 16px;
+    }
+
+    /*---------------end list of all event------------------*/
+    /*---------------filler------------------*/
+    .filler_img img {
+        height: 460px;
+    }
+
+    .filler_title {
+        font-size: 40px;
+    }
+
+    .filler_text {
+        width: 60%;
+    }
+
+    /*---------------end filler------------------*/
+    /*---------------about us------------------*/
+    .aus_img img {
+        height: 580px;
+    }
+
+    .aus_img_1 {
+        top: -50px;
+    }
+
+    .aus_img_1 img {
+        width: 330px;
+        height: 330px;
+    }
+
+    .aus_img_2 img {
+        height: 360px;
+    }
+
+    .aus_lt::before {
+        height: 100px;
+        top: -130px;
+    }
+
+    /*---------------end about us------------------*/
+}
+
+@media all and (min-width: 1681px) and (max-width: 1880px) {
+    /*-----------------banner---------*/
+    .banner_img img {
+        height: 880px;
+    }
+
+    .bt_banner_section {
+        height: 900px;
+    }
+
+    /*-----------------end banner---------*/
+}

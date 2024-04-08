@@ -1,0 +1,336 @@
+.footer_section {
+    background: url(../images/footer-bg.jpg);
+    background-size: cover;
+}
+.footer_col {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.footer_col_one {
+    padding: 0 57px 0 0;
+}
+.footer_row {
+    align-items: inherit !important;
+    position: relative;
+}
+.footer_img_a img {
+    height: 100px;
+    width: 100%;
+    object-fit: contain;
+    object-position: left;
+}
+.footer_text {
+    font-size: 16px;
+    padding: 20px 0 10px;
+    font-weight: 400;
+    color: #FFF;
+    line-height: 1.5;
+}
+.footer_title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFF;
+    position: relative;
+}
+.f_line {
+    width: 40px;
+    height: 2px;
+    background: #F22727;
+    margin: 10px 0;
+}
+.footer_ul {
+    padding: 0 !important;
+    list-style: none !important;
+}
+.footer_li {
+    padding: 5px 0 5px 13px;
+    position: relative;
+}
+.footer_a {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    position: relative;
+    text-transform: capitalize;
+    transition: 1s;
+}
+.footer_li::before {
+    content: "";
+    position: absolute;
+    background: #fff;
+    width: 5px;
+    height: 5px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 10px;
+    transition: 1s;
+}
+.footer_li:hover::before {
+    width: 10px;
+    background: #f22727;
+}
+.footer_li:hover a {
+    color: #f22727;
+}
+.soci_ul {
+    padding: 0 !important;
+    list-style: none !important;
+}
+.soci_li {
+    padding: 7px 0;
+}
+.soci_a {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    transition: 1s;
+}
+.soci_a:hover {
+	color: #f22727;	
+}
+.soci_a img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+}
+.soci_a span {
+    padding: 0 0 0 10px;    
+}
+.footer_soc {
+    width: 100%;
+}
+.footer_col_thre {
+    border-left: 1px solid #ffffff50;
+    border-right: 1px solid #ffffff50;
+}
+.footer_col_two {
+    border-left: 1px solid #ffffff50;
+}
+.footer_section::before {
+    content: "";
+    position: absolute;
+    background: #15073cc7;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+/*------------copyright row----------------*/
+.footer_copyright_box {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 0;
+}
+.footer_copyright_right {
+    margin: auto;
+    margin-right: 0;
+}
+.footer_copyright_right a {color: #fff;}
+.footer_made_text {
+    display: flex;
+    align-items: center;
+}
+.footer_made_text span {
+    padding: 0 4px;
+}
+.heart {
+    position: relative;
+    font-size: 18px;
+    color: #fd5e34;
+    -webkit-animation: heartbeat 1.2s linear infinite;
+    animation: heartbeat 1.2s linear infinite;
+}
+@keyframes heartbeat {
+    0% {transform: scale(1)}
+    25% {transform: scale(1)}
+    30% {transform: scale(1.3)}
+    50% {transform: scale(1.2)}
+    70% {transform: scale(1.3)}
+    100% {transform: scale(1)}
+}
+.footer_copyright_row {
+    background: #000;
+    position: relative;
+}
+/*------------end copyright row----------------*/
+
+
+
+
+
+
+
+@media all and (min-width: 320px) and (max-width: 767px){
+    .footer_title {
+	    font-size: 18px;
+	}
+	.footer_a {
+	    font-size: 15px;
+	}
+	.footer_img_a img {
+	    height: 60px;
+        object-position: center;
+	}
+	.footer_col_one {
+	    padding: 0 0px 15px 0;
+	    width: 100%;
+	    text-align: center;
+	}
+	.footer_text {
+	    font-size: 15px;
+	    padding: 10px 0 10px;
+	}
+	.soci_a {
+	    font-size: 15px;
+	}
+	.footer_col {
+	    width: 100%;
+        justify-content: left;
+	    border-left: none;        
+	    border-right: none;        
+	}
+	.footer_menu,.footer_col_box {
+	    width: 100%;
+	}
+	/*------------copyright row----------------*/
+	.footer_copyright_box {
+	    font-size: 15px;
+	    padding: 15px 0;
+	}
+	.footer_copyright_box{
+        display: grid;
+        gap: 5px;   
+    }
+    .footer_copyright_right {
+        margin-right: auto;
+    }
+    .footer_copyright_left {
+        text-align: center;
+    }
+	/*------------end copyright row----------------*/
+
+}
+@media all and (min-width: 481px) and (max-width: 767px){
+    .footer_col li {
+	    width: 50%;
+	    float: left;
+	}
+
+}
+@media all and (min-width: 768px) and (max-width: 980px){
+    .footer_title {
+	    font-size: 18px;
+	}
+	.footer_a {
+	    font-size: 15px;
+	}
+	.footer_img_a img {
+	    height: 60px;
+        object-position: center;
+	}
+	.footer_col_one {
+	    padding: 0 0px 15px 0 !important;
+	    width: 100% !important;
+	    text-align: center;
+	}
+	.footer_text {
+	    font-size: 15px;
+	    padding: 10px 0 10px;
+	}
+	.soci_a {
+	    font-size: 15px;
+	}
+	.footer_col {
+	    width: 33.33%;
+        justify-content: left;
+        padding: 0 0 0 30px;
+	}
+	.footer_col_two {
+	    padding: 0 0 0 0;
+	    border-left: none;
+	}
+}
+@media all and (min-width: 981px) and (max-width: 1024px){
+    .footer_title {
+	    font-size: 18px;
+	}
+	.footer_a {
+	    font-size: 15px;
+	}
+	.footer_img_a img {
+	    height: 60px;
+	}
+	.footer_col_one {
+	    padding: 0 30px 0 0;
+	}
+	.footer_text {
+	    font-size: 15px;
+	    padding: 10px 0 10px;
+	}
+	.soci_a {
+	    font-size: 15px;
+	}
+}
+@media all and (min-width: 1025px) and (max-width: 1140px){
+    .footer_title {
+	    font-size: 18px;
+	}
+	.footer_a {
+	    font-size: 15px;
+	}
+	.footer_img_a img {
+	    height: 70px;
+	}
+	.footer_col_one {
+	    padding: 0 30px 0 0;
+	}
+	.footer_text {
+	    font-size: 15px;
+	    padding: 10px 0 10px;
+	}
+	.soci_a {
+	    font-size: 15px;
+	}
+}
+@media all and (min-width: 1141px) and (max-width: 1280px){
+    .footer_title {
+	    font-size: 18px;
+	}
+	.footer_a {
+	    font-size: 15px;
+	}
+	.footer_img_a img {
+	    height: 80px;
+	}
+	.footer_col_one {
+	    padding: 0 38px 0 0;
+	}
+	.soci_a {
+	    font-size: 15px;
+	}
+}
+@media all and (min-width: 1281px) and (max-width: 1440px){
+    .footer_title {
+	    font-size: 18px;
+	}
+	.footer_a {
+	    font-size: 15px;
+	}
+	.footer_img_a img {
+	    height: 80px;
+	}
+}
+@media all and (min-width: 1441px) and (max-width: 1680px){
+
+}
+@media all and (min-width: 1681px) and (max-width: 1880px){
+    
+}

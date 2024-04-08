@@ -1,0 +1,971 @@
+[
+    {
+        "city": "Sydney"
+    },
+    {
+        "city": "Melbourne"
+    },
+    {
+        "city": "Brisbane"
+    },
+    {
+        "city": "Perth"
+    },
+    {
+        "city": "Adelaide"
+    },
+    {
+        "city": "Gold Coast"
+    },
+    {
+        "city": "Cranbourne"
+    },
+    {
+        "city": "Canberra"
+    },
+    {
+        "city": "Central Coast"
+    },
+    {
+        "city": "Wollongong"
+    },
+    {
+        "city": "Hobart"
+    },
+    {
+        "city": "Geelong"
+    },
+    {
+        "city": "Townsville"
+    },
+    {
+        "city": "Ipswich"
+    },
+    {
+        "city": "Newcastle"
+    },
+    {
+        "city": "Cairns"
+    },
+    {
+        "city": "Darwin"
+    },
+    {
+        "city": "Toowoomba"
+    },
+    {
+        "city": "Launceston"
+    },
+    {
+        "city": "Ballarat"
+    },
+    {
+        "city": "Bendigo"
+    },
+    {
+        "city": "Mackay"
+    },
+    {
+        "city": "Wagga Wagga"
+    },
+    {
+        "city": "Hervey Bay"
+    },
+    {
+        "city": "Pakenham"
+    },
+    {
+        "city": "Port Macquarie"
+    },
+    {
+        "city": "Caloundra"
+    },
+    {
+        "city": "Frankston"
+    },
+    {
+        "city": "Sunbury"
+    },
+    {
+        "city": "Gladstone"
+    },
+    {
+        "city": "Bathurst"
+    },
+    {
+        "city": "Mildura"
+    },
+    {
+        "city": "Southport"
+    },
+    {
+        "city": "Dandenong"
+    },
+    {
+        "city": "Warrnambool"
+    },
+    {
+        "city": "Burnie"
+    },
+    {
+        "city": "Quakers Hill"
+    },
+    {
+        "city": "Caboolture"
+    },
+    {
+        "city": "Mount Gambier"
+    },
+    {
+        "city": "Traralgon"
+    },
+    {
+        "city": "Armidale"
+    },
+    {
+        "city": "Whyalla"
+    },
+    {
+        "city": "Griffith"
+    },
+    {
+        "city": "Mount Eliza"
+    },
+    {
+        "city": "Nerang"
+    },
+    {
+        "city": "Lara"
+    },
+    {
+        "city": "Taree"
+    },
+    {
+        "city": "Banora Point"
+    },
+    {
+        "city": "Warragul"
+    },
+    {
+        "city": "Cessnock"
+    },
+    {
+        "city": "Horsham"
+    },
+    {
+        "city": "Australind"
+    },
+    {
+        "city": "Barwon Heads"
+    },
+    {
+        "city": "Ulverstone"
+    },
+    {
+        "city": "Echuca"
+    },
+    {
+        "city": "Mount Barker"
+    },
+    {
+        "city": "Morwell"
+    },
+    {
+        "city": "Forster"
+    },
+    {
+        "city": "Bongaree"
+    },
+    {
+        "city": "Penrith"
+    },
+    {
+        "city": "Goonellabah"
+    },
+    {
+        "city": "Leopold"
+    },
+    {
+        "city": "Campbelltown"
+    },
+    {
+        "city": "Muswellbrook"
+    },
+    {
+        "city": "Rutherford"
+    },
+    {
+        "city": "Inverell"
+    },
+    {
+        "city": "Parkes"
+    },
+    {
+        "city": "Nambour"
+    },
+    {
+        "city": "Mareeba"
+    },
+    {
+        "city": "Wallan"
+    },
+    {
+        "city": "Corinda"
+    },
+    {
+        "city": "Casino"
+    },
+    {
+        "city": "Gympie"
+    },
+    {
+        "city": "Kingston"
+    },
+    {
+        "city": "Grafton"
+    },
+    {
+        "city": "Bowral"
+    },
+    {
+        "city": "Young"
+    },
+    {
+        "city": "Cowra"
+    },
+    {
+        "city": "Swan Hill"
+    },
+    {
+        "city": "Mudgee"
+    },
+    {
+        "city": "Mount Evelyn"
+    },
+    {
+        "city": "Andergrove"
+    },
+    {
+        "city": "Moree"
+    },
+    {
+        "city": "Nowra"
+    },
+    {
+        "city": "Colac"
+    },
+    {
+        "city": "Yanchep"
+    },
+    {
+        "city": "Ballina"
+    },
+    {
+        "city": "Leeton"
+    },
+    {
+        "city": "Moss Vale"
+    },
+    {
+        "city": "Springwood"
+    },
+    {
+        "city": "Emu Plains"
+    },
+    {
+        "city": "Ararat"
+    },
+    {
+        "city": "Tweed Heads"
+    },
+    {
+        "city": "Charters Towers"
+    },
+    {
+        "city": "Katoomba"
+    },
+    {
+        "city": "Mooroopna"
+    },
+    {
+        "city": "Maryborough"
+    },
+    {
+        "city": "Deniliquin"
+    },
+    {
+        "city": "Mandurah"
+    },
+    {
+        "city": "Bli Bli"
+    },
+    {
+        "city": "Narrabri"
+    },
+    {
+        "city": "Clifton Springs"
+    },
+    {
+        "city": "Bargara"
+    },
+    {
+        "city": "Kingscliff"
+    },
+    {
+        "city": "Healesville"
+    },
+    {
+        "city": "Fremantle"
+    },
+    {
+        "city": "Blaxland"
+    },
+    {
+        "city": "Kyabram"
+    },
+    {
+        "city": "Sanctuary Point"
+    },
+    {
+        "city": "Merrimac"
+    },
+    {
+        "city": "Murwillumbah"
+    },
+    {
+        "city": "Urraween"
+    },
+    {
+        "city": "Kyneton"
+    },
+    {
+        "city": "Cootamundra"
+    },
+    {
+        "city": "Castlemaine"
+    },
+    {
+        "city": "Bomaderry"
+    },
+    {
+        "city": "Helensburgh"
+    },
+    {
+        "city": "Port Augusta"
+    },
+    {
+        "city": "Yass"
+    },
+    {
+        "city": "Strathalbyn"
+    },
+    {
+        "city": "Burpengary"
+    },
+    {
+        "city": "Waterford"
+    },
+    {
+        "city": "Lennox Head"
+    },
+    {
+        "city": "Seymour"
+    },
+    {
+        "city": "Nambucca Heads"
+    },
+    {
+        "city": "Nuriootpa"
+    },
+    {
+        "city": "Wauchope"
+    },
+    {
+        "city": "Tumut"
+    },
+    {
+        "city": "Tuncurry"
+    },
+    {
+        "city": "Glen Innes"
+    },
+    {
+        "city": "Yamba"
+    },
+    {
+        "city": "Lakes Entrance"
+    },
+    {
+        "city": "Kurri Kurri"
+    },
+    {
+        "city": "Wynyard"
+    },
+    {
+        "city": "North Mackay"
+    },
+    {
+        "city": "Dromana"
+    },
+    {
+        "city": "Mittagong"
+    },
+    {
+        "city": "Alstonville"
+    },
+    {
+        "city": "Stawell"
+    },
+    {
+        "city": "Cannonvale"
+    },
+    {
+        "city": "Point Vernon"
+    },
+    {
+        "city": "Leongatha"
+    },
+    {
+        "city": "Scone"
+    },
+    {
+        "city": "Whittlesea"
+    },
+    {
+        "city": "Corowa"
+    },
+    {
+        "city": "Richmond"
+    },
+    {
+        "city": "Cooranbong"
+    },
+    {
+        "city": "Inverloch"
+    },
+    {
+        "city": "New Norfolk"
+    },
+    {
+        "city": "Wingham"
+    },
+    {
+        "city": "Woolgoolga"
+    },
+    {
+        "city": "Maffra"
+    },
+    {
+        "city": "Lithgow"
+    },
+    {
+        "city": "Millicent"
+    },
+    {
+        "city": "Worragee"
+    },
+    {
+        "city": "Tahmoor"
+    },
+    {
+        "city": "Red Cliffs"
+    },
+    {
+        "city": "Glenbrook"
+    },
+    {
+        "city": "Nairne"
+    },
+    {
+        "city": "Kiama Downs"
+    },
+    {
+        "city": "Hazelbrook"
+    },
+    {
+        "city": "Encounter Bay"
+    },
+    {
+        "city": "Boulder"
+    },
+    {
+        "city": "Picton"
+    },
+    {
+        "city": "Albury"
+    },
+    {
+        "city": "Mansfield"
+    },
+    {
+        "city": "Churchill"
+    },
+    {
+        "city": "Bucasia"
+    },
+    {
+        "city": "Temora"
+    },
+    {
+        "city": "Renmark"
+    },
+    {
+        "city": "Tanunda"
+    },
+    {
+        "city": "Loxton"
+    },
+    {
+        "city": "Glenella"
+    },
+    {
+        "city": "Numurkah"
+    },
+    {
+        "city": "Korumburra"
+    },
+    {
+        "city": "Rasmussen"
+    },
+    {
+        "city": "Tatura"
+    },
+    {
+        "city": "Old Bar"
+    },
+    {
+        "city": "Narrandera"
+    },
+    {
+        "city": "George Town"
+    },
+    {
+        "city": "Wyong"
+    },
+    {
+        "city": "Broadford"
+    },
+    {
+        "city": "Drysdale"
+    },
+    {
+        "city": "Cockatoo"
+    },
+    {
+        "city": "Victor Harbor"
+    },
+    {
+        "city": "Moama"
+    },
+    {
+        "city": "Latrobe"
+    },
+    {
+        "city": "Berri"
+    },
+    {
+        "city": "Wellington"
+    },
+    {
+        "city": "Thirlmere"
+    },
+    {
+        "city": "Legana"
+    },
+    {
+        "city": "The Entrance"
+    },
+    {
+        "city": "Cobar"
+    },
+    {
+        "city": "Gerringong"
+    },
+    {
+        "city": "Margate"
+    },
+    {
+        "city": "Trafalgar"
+    },
+    {
+        "city": "Somerset"
+    },
+    {
+        "city": "Kerang"
+    },
+    {
+        "city": "Roxby Downs"
+    },
+    {
+        "city": "Smithton"
+    },
+    {
+        "city": "Longford"
+    },
+    {
+        "city": "Beechworth"
+    },
+    {
+        "city": "Penguin"
+    },
+    {
+        "city": "Anna Bay"
+    },
+    {
+        "city": "McLaren Vale"
+    },
+    {
+        "city": "Pearcedale"
+    },
+    {
+        "city": "Peregian Beach"
+    },
+    {
+        "city": "Bellingen"
+    },
+    {
+        "city": "Suffolk Park"
+    },
+    {
+        "city": "Buninyong"
+    },
+    {
+        "city": "Weston"
+    },
+    {
+        "city": "Sawtell"
+    },
+    {
+        "city": "Silverdale"
+    },
+    {
+        "city": "Bay View"
+    },
+    {
+        "city": "Lismore"
+    },
+    {
+        "city": "Koo-Wee-Rup"
+    },
+    {
+        "city": "Merimbula"
+    },
+    {
+        "city": "Scarness"
+    },
+    {
+        "city": "Lake Cathie"
+    },
+    {
+        "city": "Condobolin"
+    },
+    {
+        "city": "Paynesville"
+    },
+    {
+        "city": "Maddingley"
+    },
+    {
+        "city": "Hurstbridge"
+    },
+    {
+        "city": "Quirindi"
+    },
+    {
+        "city": "Blayney"
+    },
+    {
+        "city": "Camperdown"
+    },
+    {
+        "city": "Aldgate"
+    },
+    {
+        "city": "Port Fairy"
+    },
+    {
+        "city": "Vincentia"
+    },
+    {
+        "city": "Euroa"
+    },
+    {
+        "city": "Marcoola"
+    },
+    {
+        "city": "Mullumbimby"
+    },
+    {
+        "city": "Tura Beach"
+    },
+    {
+        "city": "Eden"
+    },
+    {
+        "city": "West Wyalong"
+    },
+    {
+        "city": "Gilgandra"
+    },
+    {
+        "city": "Robinvale"
+    },
+    {
+        "city": "Wilton"
+    },
+    {
+        "city": "Riverview"
+    },
+    {
+        "city": "Bogangar"
+    },
+    {
+        "city": "Shoalhaven Heads"
+    },
+    {
+        "city": "Urunga"
+    },
+    {
+        "city": "Bonny Hills"
+    },
+    {
+        "city": "Stirling"
+    },
+    {
+        "city": "Perth"
+    },
+    {
+        "city": "Barmera"
+    },
+    {
+        "city": "Kapunda"
+    },
+    {
+        "city": "Thursday Island"
+    },
+    {
+        "city": "Terranora"
+    },
+    {
+        "city": "Woori Yallock"
+    },
+    {
+        "city": "Saint Georges Basin"
+    },
+    {
+        "city": "Tea Gardens"
+    },
+    {
+        "city": "Culburra"
+    },
+    {
+        "city": "Yarra Glen"
+    },
+    {
+        "city": "Beaconsfield Upper"
+    },
+    {
+        "city": "Deloraine"
+    },
+    {
+        "city": "Greta"
+    },
+    {
+        "city": "North Wonthaggi"
+    },
+    {
+        "city": "Howlong"
+    },
+    {
+        "city": "Williamstown"
+    },
+    {
+        "city": "Waikerie"
+    },
+    {
+        "city": "Hill Top"
+    },
+    {
+        "city": "Hahndorf"
+    },
+    {
+        "city": "Jindabyne"
+    },
+    {
+        "city": "Lawson"
+    },
+    {
+        "city": "Woodside"
+    },
+    {
+        "city": "Narooma"
+    },
+    {
+        "city": "Grenfell"
+    },
+    {
+        "city": "Manilla"
+    },
+    {
+        "city": "Daylesford"
+    },
+    {
+        "city": "Lobethal"
+    },
+    {
+        "city": "The Oaks"
+    },
+    {
+        "city": "Aberdare"
+    },
+    {
+        "city": "Dodges Ferry"
+    },
+    {
+        "city": "Launching Place"
+    },
+    {
+        "city": "Rutherglen"
+    },
+    {
+        "city": "Goolwa"
+    },
+    {
+        "city": "Willunga"
+    },
+    {
+        "city": "Sandy Beach"
+    },
+    {
+        "city": "Hadspen"
+    },
+    {
+        "city": "Canowindra"
+    },
+    {
+        "city": "Freeling"
+    },
+    {
+        "city": "Saint Arnaud"
+    },
+    {
+        "city": "Baxter"
+    },
+    {
+        "city": "Walgett"
+    },
+    {
+        "city": "Esperance"
+    },
+    {
+        "city": "Yarram"
+    },
+    {
+        "city": "Heddon Greta"
+    },
+    {
+        "city": "Freshwater"
+    },
+    {
+        "city": "Bangalow"
+    },
+    {
+        "city": "Orbost"
+    },
+    {
+        "city": "Westbury"
+    },
+    {
+        "city": "Lyndoch"
+    },
+    {
+        "city": "Camden Haven"
+    },
+    {
+        "city": "Wallerawang"
+    },
+    {
+        "city": "Wattleglen"
+    },
+    {
+        "city": "Bourke"
+    },
+    {
+        "city": "Mulwala"
+    },
+    {
+        "city": "Windsor"
+    },
+    {
+        "city": "Nathalia"
+    },
+    {
+        "city": "Oakdale"
+    },
+    {
+        "city": "Cobden"
+    },
+    {
+        "city": "Queenstown"
+    },
+    {
+        "city": "Denman"
+    },
+    {
+        "city": "Batehaven"
+    },
+    {
+        "city": "Brunswick Heads"
+    },
+    {
+        "city": "Tathra"
+    },
+    {
+        "city": "Yarragon"
+    },
+    {
+        "city": "Yaroomba"
+    },
+    {
+        "city": "Curlewis"
+    },
+    {
+        "city": "Yallourn North"
+    },
+    {
+        "city": "Drummond Cove"
+    },
+    {
+        "city": "Surfside"
+    },
+    {
+        "city": "Evandale"
+    },
+    {
+        "city": "Kurrajong Heights"
+    },
+    {
+        "city": "Seven Mile Beach"
+    },
+    {
+        "city": "San Remo"
+    },
+    {
+        "city": "Valley Heights"
+    },
+    {
+        "city": "Greenwell Point"
+    },
+    {
+        "city": "Innisfail"
+    },
+    {
+        "city": "Wahgunyah"
+    },
+    {
+        "city": "Tinonee"
+    },
+    {
+        "city": "Mollymook"
+    }
+]
